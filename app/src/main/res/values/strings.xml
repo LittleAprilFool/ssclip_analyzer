@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ssclip_analyzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_send">Analyze</string>
+    <string name="textB">血管转移</string>
+    <string name="textC">lastSTAT</string>
+    <string name="textD">1,2-术后生存时间</string>
+    <string name="textE">12monthsSTATUS</string>
+    <string name="textF">36monthsSTATUS</string>
+    <string name="textG">性别</string>
+    <string name="textH">年龄</string>
+    <string name="textI">肝性脑病</string>
+    <string name="textJ">上消化道出血</string>
+    <string name="textK">TB(umol/L)</string>
+    <string name="textL">TB(MG/DL)</string>
+    <string name="textM">ALB(g/L)</string>
+    <string name="textN">PT(s)</string>
+    <string name="textO">PTA(%)</string>
+    <string name="textP">AFP(ng/mL)</string>
+    <string name="textQ">病因</string>
+    <string name="textS">结合腹水</string>
+    <string name="textT">结合门静脉栓子</string>
+    <string name="textU">结合肿瘤个数</string>
+    <string name="textV">结合肿瘤最大直径</string>
+    <string name="textW">MELD</string>
+    <string name="textX">Okuda分期</string>
+    <string name="textY">Okuda分期数字</string>
+    <string name="textZ">Okuda评分</string>
+    <string name="textAA">CLIP评分</string>
+    <string name="textAB">MELD-CLIP</string>
+    <string name="textAC">SSCLIP</string>
+    <string name="textAD">SSCLIP-risk level</string>
+    <string name="textAE">Child评分</string>
+    <string name="textAF">Child分级</string>
+    <string name="textAG">Child分级数字</string>
+    <string name="textAH">Child-TB</string>
+    <string name="textAI">Child-ALB</string>
+    <string name="textAJ">Child-PT</string>
+</resources>

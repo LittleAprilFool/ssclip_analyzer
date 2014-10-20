@@ -4,6 +4,7 @@
     <string name="app_name">ssclip_analyzer</string>
     <string name="action_settings">Settings</string>
     <string name="button_send">Analyze</string>
+    <string name="result">＃＃＃分析结果＃＃＃</string>
     <string name="textB">血管转移</string>
     <string name="textC">lastSTAT</string>
     <string name="textD">1,2-术后生存时间</string>

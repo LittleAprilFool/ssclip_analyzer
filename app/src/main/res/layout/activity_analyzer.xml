@@ -3,6 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
     <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -324,11 +326,22 @@
 
         <Button
             android:id="@+id/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_send"/>
-
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/result"
+            android:textSize="20dp"/>
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -343,6 +356,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -357,6 +371,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -371,6 +386,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -385,6 +401,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -399,6 +416,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -413,6 +431,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -427,6 +446,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -441,6 +461,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -455,6 +476,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -469,6 +491,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -483,6 +506,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -497,6 +521,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">

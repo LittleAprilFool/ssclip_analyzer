@@ -1,6 +1,7 @@
 package littleaprilfool.me.ssclip_analyzer;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -156,7 +157,7 @@ public class analyzer extends Activity {
                 if (S == 1 | S == 2) cz = cz + 1;
                 if (M < 30) cz = cz + 1;
                 if (L > 3) cz = cz + 1;
-                textZ.setText(""+cz);
+                textZ.setText("" + cz);
 
                 //Display Y, related to Z
                 int cy;
@@ -164,7 +165,7 @@ public class analyzer extends Activity {
                 if (cz == 0) cy = 1;
                 if (cz == 1 | cz == 2) cy = 2;
                 if (cz == 3 | cz == 4) cy = 3;
-                textY.setText(""+cy);
+                textY.setText("" + cy);
 
                 //Display X, related to Y
                 String cx;
@@ -172,40 +173,40 @@ public class analyzer extends Activity {
                 if (cy == 1) cx = "I";
                 if (cy == 2) cx = "II";
                 if (cy == 3) cx = "III";
-                textX.setText(""+cx);
+                textX.setText("" + cx);
 
                 //Calculate AH
                 int cah;
-                if (K > 51) cah = 3 ;
+                if (K > 51) cah = 3;
                 else if (K > 34) cah = 2;
                 else cah = 1;
-                textAH.setText(""+cah);
+                textAH.setText("" + cah);
 
                 //Calculate AI
                 int cai;
                 if (M > 35) cai = 1;
-                else if(M > 28) cai = 2;
+                else if (M > 28) cai = 2;
                 else cai = 3;
-                textAI.setText(""+cai);
+                textAI.setText("" + cai);
 
                 //Calculate AJ
                 int caj;
                 if (N > 17) caj = 3;
-                else if(N > 15) caj = 2;
+                else if (N > 15) caj = 2;
                 else caj = 1;
-                textAJ.setText(""+caj);
+                textAJ.setText("" + caj);
 
                 //Calculate AE, related to AH,AI,AJ
                 int cae;
                 cae = cah + cai + caj + I + 1 + S + 1;
-                textAE.setText(""+cae);
+                textAE.setText("" + cae);
 
                 //Display AG, related to AE
                 int cag;
                 if (cae > 9) cag = 3;
                 else if (cae > 7) cag = 2;
                 else cag = 1;
-                textAG.setText(""+cag);
+                textAG.setText("" + cag);
 
                 //Display AF, related to AG
                 String caf;
@@ -213,16 +214,16 @@ public class analyzer extends Activity {
                 if (cag == 1) caf = "A";
                 if (cag == 2) caf = "B";
                 if (cag == 3) caf = "C";
-                textAF.setText(""+caf);
+                textAF.setText("" + caf);
 
                 //Calculate AA, related to AG
                 int caa;
                 caa = cag - 1;
                 if (V > 50) caa = caa + 2;
-                else if (U != 1) caa = caa + 1 ;
+                else if (U != 1) caa = caa + 1;
                 if (P > 400) caa = caa + 1;
                 caa = caa + T;
-                textAA.setText(""+caa);
+                textAA.setText("" + caa);
 
                 //Calculate AB
                 int cab;
@@ -231,9 +232,9 @@ public class analyzer extends Activity {
                 else cab = 2;
                 if (V > 50) cab = cab + 2;
                 else if (U != 1) cab = cab + 1;
-                if (P >= 400) cab = cab +1;
+                if (P >= 400) cab = cab + 1;
                 cab = cab + T;
-                textAB.setText(""+cab);
+                textAB.setText("" + cab);
 
                 //Calculate AC
                 int cac;
@@ -246,14 +247,14 @@ public class analyzer extends Activity {
                 if (H > 42) cac = cac + 1;
                 if (M <= 41.6) cac = cac + 1;
                 if (O < 40) cac = cac + 1;
-                textAC.setText(""+cac);
+                textAC.setText("" + cac);
 
                 //Display AD, related to AC
                 String cad;
                 if (cac < 3) cad = "low-risk";
                 else if (cac < 6) cad = "intermediate-risk";
                 else cad = "high-risk";
-                textAD.setText(""+cad);
+                textAD.setText("" + cad);
             }
         });
     }
